@@ -1,0 +1,10 @@
+body{
+  background-color: rgba(0, 0, 0, 0.236);
+}
+.total{
+  height:100px;
+  width:100%;
+}
+.buttn{
+  display: inline;
+}
