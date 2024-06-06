@@ -70,10 +70,10 @@ const calculate =()=>{
   return (
     <>
      <div className="d-flex justify-content-center align-items-center mt-5">
-     <div className="form-floating shadow p-5 w-50 bg-light">
+    <div className="form-floating shadow p-5 w-lg-50 w-xs-0 bg-light">
      <h3 className='text-success text-center'>Simple Interest App</h3>
      <p className='text-center'>Calculate Your Simple Interest easily</p>
-     <div className='mt-2 p-5 flex-column border border-primary total rounded bg-success d-flex justify-content-center align-items-center'>
+     <div className='mt-2 px-lg-5 py-lg-5 p-xs-0 flex-column border border-primary total rounded bg-success d-flex justify-content-center align-items-center'>
      <h2 className='text-light'><i class="fa-solid fa-indian-rupee-sign fs-3"> { interest}</i></h2>
      <h5 className='text-light ms-2'>Total</h5>
      </div>
